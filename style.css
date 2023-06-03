@@ -1,0 +1,39 @@
+.container{
+    height: 576px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+    background-color: #F0FFF0;;
+    border-radius: 0px;
+    background-image: url('Photos/Illustration.png');
+    background-size: cover;
+    background-origin: border-box;
+}
+.container-fluid{
+    background-color: transparent;
+}
+
+.sign-in-button{
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 25px;
+        gap: 10px;
+    
+        position: flex;
+        width: 100px;
+        height: auto;
+        
+        background: #21B573;
+        border: none;
+        border-radius: 33px;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+        
+        
+            color: #FFFFFF;
+}
